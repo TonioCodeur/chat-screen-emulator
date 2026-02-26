@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.better-auth.com)",
+      "Bash(pnpm dlx prisma generate)",
+      "Bash(pnpm build)",
+      "Bash(cd:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(uv tool:*)",
+      "Bash(head:*)",
+      "Bash(export:*)",
+      "Bash(pnpm:*)",
+      "Bash(node --version 2>&1 && npm --version 2>&1)",
+      "Bash(python:*)",
+      "Bash(\"C:/Users/acopi/.local/bin/specify.exe\":*)",
+      "Bash(powershell -Command \"[System.Environment]::GetEnvironmentVariable\\('Path', 'User'\\)\" 2>&1 | tr ';' '\\\\n' | grep -i \".local/bin\\\\|.local\\\\\\\\\\\\\\\\bin\" 2>&1)",
+      "Bash(powershell:*)",
+      "Bash(export PATH=\"C:/Users/acopi/.local/bin:$PATH\" && specify --help 2>&1)",
+      "Bash(export PATH=\"/c/Users/acopi/.local/bin:$PATH\" && specify --help 2>&1)",
+      "Bash(export PATH=\"/c/Users/acopi/.local/bin:$PATH\" && PYTHONUTF8=1 specify --help 2>&1)"
+    ]
+  }
+}
